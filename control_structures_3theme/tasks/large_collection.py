@@ -42,7 +42,7 @@ name,premium,employer_name,salary_from,salary_to,area_name
 import csv
 import os
 
-current_dir = os.path.dirname(os.path.abspath(__file__))  # Получает путь к текущему файлу в задачах
+current_dir = os.path.dirname(os.path.abspath(__file__))
 project_dir = os.path.dirname(os.path.dirname(current_dir))
 a = os.path.join(project_dir, 'control_structures_3theme', 'test', 'large_collection_test.csv')
 with open(a, mode='r', encoding='utf-8-sig') as csv_file:
